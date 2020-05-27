@@ -1,0 +1,27 @@
+---
+name: Notification
+menu: Components
+---
+
+import { Playground, Props } from 'docz'
+
+import { UnstatedContainer } from './StateContainer'
+
+import { RawNotification } from './Notification'
+
+# Notification
+
+## RawNotification
+
+### Properties
+
+<Props of={RawNotification} />
+
+### Basic usage
+
+<Playground>
+  <UnstatedContainer>
+    <RawNotification type="error">Some error message</RawNotification>
+    <RawNotification type="info">Some info message</RawNotification>
+  </UnstatedContainer>
+</Playground>
