@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@tianhuil/simple-trpc": "^1.8.0",
+    "docz": "^2.3.1",
     "muicss": "^0.10.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -43,7 +44,10 @@
   "scripts": {
     "gulp": "gulp",
     "eject": "react-scripts eject",
-    "analyze": "source-map-explorer 'build/static/js/*.js'"
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "documentation:dev": "docz dev",
+    "documentation:build": "docz build",
+    "documentation:serve": "docz build && docz serve"
   },
   "browserslist": {
     "production": [
