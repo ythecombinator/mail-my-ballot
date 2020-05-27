@@ -1,0 +1,55 @@
+---
+name: Input
+menu: Components
+---
+
+import { Playground, Props } from 'docz'
+
+import { 
+  NameInput, 
+  BirthDateInput, 
+  PhoneInput, 
+  EmailInput 
+} from './Input'
+
+# Input
+
+## NameInput
+
+### Basic usage
+
+<Playground>
+  <NameInput onChange={(evt) => {
+    console.log('Full Name: ', evt.target.value)
+  }}/>
+</Playground>
+
+## BirthDateInput
+
+### Basic usage
+
+<Playground>
+  <BirthDateInput onChange={(evt) => {
+    console.log('Birth Date: ', evt.target.value)
+  }}/>
+</Playground>
+
+## PhoneInput
+
+### Basic usage
+
+<Playground>
+  <PhoneInput onChange={(evt) => {
+    console.log('Phone: ', evt.target.value)
+  }}/>
+</Playground>
+
+## EmailInput
+
+### Basic usage
+
+<Playground>
+  <EmailInput onChange={(evt) => {
+    console.log('Email: ', evt.target.value)
+  }}/>
+</Playground>

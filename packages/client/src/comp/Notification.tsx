@@ -25,7 +25,7 @@ const Floating = styled.div`
   `}}
 `
 
-const RawNotification = ({type, children}: Props) => {
+export const RawNotification = ({type, children}: Props) => {
   return <Floating type={type}>
     {children}
   </Floating>

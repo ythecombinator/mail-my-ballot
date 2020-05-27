@@ -1,0 +1,22 @@
+---
+name: Signature
+menu: Components
+---
+
+import { Playground, Props } from 'docz'
+
+import { Signature } from './Signature'
+
+# Signature
+
+### Properties
+
+<Props of={Signature} />
+
+## Basic usage
+
+<Playground>
+  <Signature setSignature={(signature) => {
+    console.log('Signature: ', signature)
+  }}/>
+</Playground>
